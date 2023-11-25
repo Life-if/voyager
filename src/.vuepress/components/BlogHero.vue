@@ -10,3 +10,4 @@ import HitokotoBlogHero from "vuepress-theme-hope/presets/HitokotoBlogHero.js";
     </template>
   </BlogHero>
 </template>
+

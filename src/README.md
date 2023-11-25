@@ -3,46 +3,41 @@ home: true
 layout: BlogHome
 icon: home
 title: 博客主页
-heroImage: /logo.svg
-heroText: 你博客的名称
+heroText: Voyager
+heroImage: assets/icon/head.svg
 heroFullScreen: true
-tagline: 你可以在这里放置你的口号与标语
+bgImage: assets/blogCover/background.webp
+tagline: 人无千日好，花无百日红。研学需稳固，自处宜慎独。
 projects:
-  - icon: project
-    name: 项目名称
-    desc: 项目详细描述
-    link: https://你的项目链接
+  - icon: /assets/icon/code.svg
+    name: 项目代码
+    desc: 一些小小的开源工作
+    link: demo/README.md
 
-  - icon: link
-    name: 链接名称
-    desc: 链接详细描述
-    link: https://链接地址
+  - icon: /assets/icon/book.svg
+    name: 期刊论文
+    desc: 阅读期刊和论文的学习总结
+    link: blog/article/README.md
 
-  - icon: book
-    name: 书籍名称
-    desc: 书籍详细描述
-    link: https://你的书籍链接
+  - icon: /assets/icon/article.svg
+    name: 博客文章
+    desc: 学习和读书时的一些阅读笔记
+    link: blog/notion/README.md
 
-  - icon: article
-    name: 文章名称
-    desc: 文章详细描述
-    link: https://你的文章链接
+  - icon: /assets/icon/link.svg
+    name: 学习链接
+    desc: 整理的一些生产力链接
+    link: link/README.md
 
-  - icon: friend
-    name: 伙伴名称
-    desc: 伙伴详细介绍
-    link: https://你的伙伴链接
+  - icon: /assets/icon/friends.svg
+    name: 友情链接
+    desc: 朋友或者大佬的博客
+    link: friends/README.md
 
-  - icon: /logo.svg
-    name: 自定义项目
-    desc: 自定义详细介绍
-    link: https://你的自定义链接
+  - icon: /assets/icon/life.svg
+    name: 未命名
+    desc: 未定义工作
+    link: https://???
 
-footer: 自定义你的页脚文字
+footer: 不要只关注着眼前的苟且，也要想想诗和远方，思考从何而来，将欲何往
 ---
-
-这是一个博客主页的案例。
-
-要使用此布局，你应该在页面前端设置 `layout: BlogHome` 和 `home: true`。
-
-相关配置文档请见 [博客主页](https://theme-hope.vuejs.press/zh/guide/blog/home/)。
