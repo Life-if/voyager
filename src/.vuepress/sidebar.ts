@@ -40,6 +40,13 @@ export default sidebar({
         children: "structure",
         collapsible: true,
       },
+      {
+        text: "article",
+        icon: "note",
+        prefix: "",
+        children: "structure",
+        collapsible: true,
+      },
     ],
   }],
   "/blog/notion/python/python_book/":[

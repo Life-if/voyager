@@ -115,7 +115,10 @@ export default hopeTheme({
       provider: "Waline",
       serverURL: "https://waline-comment.vuejs.press",
     },
-
+    prismjs:{
+        light:"ateliersulphurpool-light",
+        dark:"dracula",
+    },
     // all features are enabled for demo, only preserve features you need here
     mdEnhance: {
       align: true,
