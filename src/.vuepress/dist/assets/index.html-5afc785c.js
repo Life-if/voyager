@@ -1,0 +1,1 @@
+import{_ as e,o as t,c,a as n}from"./app-6c152e92.js";const o={},_=n("p",null,"你好,这是article的目录",-1),s=[_];function a(r,l){return t(),c("div",null,s)}const d=e(o,[["render",a],["__file","index.html.vue"]]);export{d as default};

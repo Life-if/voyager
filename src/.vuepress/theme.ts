@@ -2,7 +2,6 @@ import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
-
 export default hopeTheme({
 // 当前网站部署到的域名
   hostname: " https://life-if-forever.gitee.io/voyager",
@@ -17,7 +16,7 @@ export default hopeTheme({
 
   // 网站图标
   logo: "assets/icon/mylogo.svg",
-  navTitle:"Mr.Voyager",
+  navTitle:"Voyager",
   navbarAutoHide:"mobile",
 
   // repo: "vuepress-theme-hope/vuepress-theme-hope",
@@ -70,11 +69,11 @@ export default hopeTheme({
 
   blog: {
    // 头像
-    avatar: "assets/icon/head.svg",
+    avatar: "assets/icon/head1.svg",
     // 名称
     name: "Voyager",
     // 是否是圆形头像
-    roundAvatar: false,
+    roundAvatar: true,
     // 个人描述
     // description: "你是无意穿堂风 偏偏孤倨引山洪",
     // 博客的侧边栏设置
@@ -108,12 +107,13 @@ export default hopeTheme({
   },
 
   plugins: {
+    
     blog: true,
     sitemap: false,
     comment: {
       // You should generate and use your own comment service
       provider: "Waline",
-      serverURL: "https://waline-comment.vuejs.press",
+      serverURL: "https://commit-blog-aeok3q7qh-life-ifs-projects.vercel.app/",
     },
     prismjs:{
         light:"ateliersulphurpool-light",

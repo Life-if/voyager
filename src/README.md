@@ -1,12 +1,17 @@
 ---
 home: true
+head: [
+  ['script',{type: "text/javascript", src: "https://github.com/HollowMan6/canvas-ribbon.js/blob/main/canvas-ribbon.js"}],
+  ['script',{type: "text/javascript"},'new Ribbons({colorSaturation: "80%",colorBrightness: "50%",colorAlpha: 0.6,colorCycleSpeed: 12,verticalPosition: "center",horizontalSpeed: 1,ribbonCount: 3,strokeSize: 0,parallaxAmount: -0.5,animateSections: true});']
+]
 layout: BlogHome
 icon: home
 title: 博客主页
 heroText: Voyager
-heroImage: assets/icon/head.svg
+# heroImage: assets/icon/head1.svg
+roundAvatar: true,
 heroFullScreen: true
-bgImage: assets/blogCover/background.webp
+bgImage: assets/blogCover/background1.webp
 tagline: 人无千日好，花无百日红。研学需稳固，自处宜慎独。
 projects:
   - icon: /assets/icon/code.svg
@@ -39,5 +44,5 @@ projects:
     desc: 未定义工作
     link: https://???
 
-footer: 不要只关注着眼前的苟且，也要想想诗和远方，思考从何而来，将欲何往
+footer: 世事随如流水，算来一梦浮生~
 ---
