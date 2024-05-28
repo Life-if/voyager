@@ -1,0 +1,1 @@
+import{_ as t,o as n,c as o,a as e}from"./app-c8122758.js";const _={},c=e("p",null,"❗❗ 本章主要是介绍 Python 的一些底层机制，这些内容对于理解 Python 程序非常有用！",-1),s=e("p",null,"🉑 本章会尽量写的详细一些。",-1),l=[c,s];function a(r,d){return n(),o("div",null,l)}const h=t(_,[["render",a],["__file","index.html.vue"]]);export{h as default};
