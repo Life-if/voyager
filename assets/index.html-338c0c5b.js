@@ -1,0 +1,1 @@
+import{_ as a,r as o,o as t,c,a as s,e as n}from"./app-ebd99713.js";const l={},r={class:"catalog-display-container"};function _(i,d){const e=o("Catalog");return t(),c("div",null,[s("div",r,[n(e,{base:"/blog/paper/classfication/"})])])}const f=a(l,[["render",_],["__file","index.html.vue"]]);export{f as default};
