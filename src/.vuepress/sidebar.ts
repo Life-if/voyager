@@ -49,13 +49,31 @@ export default sidebar({
       },
     ],
   }],
-  "/blog/notion/python/python_book/":[
+  "/blog/book/python/python_book1/":[
     {
       text: "程序员学python",
       icon: "note",
       prefix: "",
       children: "structure",
       collapsible: false
+    },
+  ],
+  "/blog/paper/detection/":[
+    {
+      text: "目标检测",
+      icon: "note",
+      prefix: "",
+      children: "structure",
+      collapsible: false
+    },
+  ],
+  "/blog/book/":[
+    {
+      text: "读书笔记",
+      icon: "note",
+      prefix: "",
+      children: "structure",
+      collapsible: false,
     },
   ]
 });

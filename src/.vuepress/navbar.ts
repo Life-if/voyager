@@ -5,16 +5,18 @@ export default navbar([
   {
     text: "期刊论文",
     icon: "install",
-    prefix: "/posts/apple/",
+    prefix: "/blog/paper/",
     children: [
-      { text: "经典论文", icon: "autumn", link: "1" },
-      { text: "追新论文", icon: "ability", link: "2" },
+      { text: "图像分类", icon: "autumn", link: "classfication/" },
+      { text: "目标检测", icon: "ability", link: "detection/" },
+      { text: "目标跟踪", icon: "ability", link: "track/" },
+      { text: "视觉大模型", icon: "ability", link: "LLMs/" },
     ],
   },
   {
     text: "博客文章",
     icon: "blog",
-    prefix: "banana/",
+    prefix: "/notion/",
     children: [
       {
         text: "Linux操作系统",
@@ -22,19 +24,23 @@ export default navbar([
         link: "2",
       },
       {
-        text: "Leecode刷题记录",
+        text: "Leecode题解",
         icon: "note",
-        link: "2",
+        link: "/leecode/",
+      },
+      {
+        text: "深度学习",
+        icon: "note",
+        link: "/deep_learning/",
       },
       {
         text: "语言基础",
         // icon: "coding",
-        prefix: "apple/",
+        prefix: "/blog/",
         children: [
           { text: "Cpp", icon: "suffix-cpp", link: "1" },
-          { text: "python", icon: "python", link: "2" },
+          { text: "python", icon: "python", link: "/python/" },
           { text: "java", icon: "java", link: "3" },
-          { text: "pytorch", icon: "pytorch", link: "4" },
         ]
       },
     ],

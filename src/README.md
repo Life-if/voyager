@@ -26,7 +26,7 @@ projects:
 
   - icon: /assets/icon/article.svg
     name: 博客文章
-    desc: 学习和读书时的一些阅读笔记
+    desc: 学习时的一些经验记录和分享
     link: blog/notion/README.md
 
   - icon: /assets/icon/link.svg
@@ -40,9 +40,9 @@ projects:
     link: friends/README.md
 
   - icon: /assets/icon/life.svg
-    name: 未命名
-    desc: 未定义工作
-    link: https://???
+    name: 读书笔记
+    desc: 一些学习用书的笔记或者单纯的书评
+    link: blog/book/README.md
 
 footer: 世事随如流水，算来一梦浮生~
 ---

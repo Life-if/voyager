@@ -4,7 +4,7 @@
       <span id="busuanzi_container_site_pv" style="display: none">
         本站总访问量
         <span id="busuanzi_value_site_pv"></span>次
-        <span class="post-meta-divider">|</span>
+        <span class="post-meta-divider">&ensp;|&ensp;</span>
       </span>
       <span id="busuanzi_container_site_uv" style="display: none">
         您是本站第
@@ -78,18 +78,19 @@ const copyright = computed(() =>
     ? `Copyright © 2016-${new Date().getFullYear()} ${author.value[0].name}`
     : false
 );
-const bgImage = ref("");
+// const bgImage = ref("");
 
-onMounted(() => {
-  const defaultHeroBgImagePath = window.localStorage.getItem("bgImage");
-  // window.alert(bgImage)
-  bgImage.value = `url(${defaultHeroBgImagePath})`;
-});
+// onMounted(() => {
+//   const defaultHeroBgImagePath = window.localStorage.getItem("bgImage");
+//   // window.alert(bgImage)
+//   bgImage.value = `url(${defaultHeroBgImagePath})`;
+// });
 </script>
 
 <style lang="scss">
 .footer-wrapper {
-  background-image: v-bind(bgImage);
+  // background-image: v-bind(bgImage);
+  background-image: url('../public/assets/blogCover/background1.webp');
 }
 
 .footer-wrapper:before {

@@ -65,7 +65,7 @@ export default hopeTheme({
 
   footer: "世事随如流水，算来一梦浮生",
 
-  displayFooter: true,
+  displayFooter: false,
 
   blog: {
    // 头像
